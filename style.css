@@ -1,0 +1,57 @@
+
+body {
+  margin-top: 80px;
+  background-color: rgb(225, 225, 225);
+}
+.text-box {
+  height: 600px;
+  width: 1200px;
+  margin: 0 auto;
+  justify-content: center;
+  display: grid;
+  font-family: Roboto;
+}
+.text-box h3:first-child {
+  color: pink;
+}
+#greycol {
+  color: gray;
+}
+.text-box div p {
+  color: red;
+}
+.text-box p:nth-child(7) {
+  color: green;
+}
+.yellow {
+  color: yellow;
+}
+.schedule {
+  background-color: slategrey;
+  font-family: Roboto;
+  display: flex;
+  height: 300px;
+  width: 900px;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.monday li:nth-child(even):hover {
+color: lightgreen;
+}
+.tuesday li:nth-child(odd):active {
+  color: #FF6F61 ;
+}
+.wednesday li:nth-child(2n):focus {
+color: #87CEEB;
+}
+
+.thursday li:nth-child(n+4) a:link {
+  color: #FFDAB9;
+}
+.friday li:nth-child(-n+3) a:visited {
+color: lightpink;
+}
+ 
+ 
