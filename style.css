@@ -47,10 +47,10 @@ color: lightgreen;
 color: #87CEEB;
 }
 
-.thursday li:nth-child(n+4) a:link {
+.thursday li:nth-child(n+4) > a:link {
   color: #FFDAB9;
 }
-.friday li:nth-child(-n+3) a:visited {
+.friday li:nth-child(-n+3) > a:visited {
 color: lightpink;
 }
  
